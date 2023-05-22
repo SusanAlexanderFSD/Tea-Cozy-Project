@@ -1,0 +1,179 @@
+/*Universal Styles*/
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-size: 22px;
+    text-align: center;
+    background-color:burlywood;
+    padding: 20px;
+    margin: 0;
+    }
+
+/*Header Section*/
+
+header .flex-container{
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: fixed;
+    top:0px;
+    align-items: center;
+    z-index: 1;
+}
+
+span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+a {
+    color: seashell;
+}
+
+nav {
+    text-align: center;
+    flex-grow: 1;
+    width: auto;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 80px;
+}
+
+/*Main Section*/
+
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    margin: 40px 80px;
+}
+
+p {
+    font-size: 20px;
+    margin: 40px 80px;
+}
+
+#banner {
+    height: 600px;
+    border: solid 3px black;
+    box-sizing: border-box;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;  
+    padding: 10px;
+    display: flex; 
+}
+
+.main-container img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    
+}
+
+.text {
+    font-size: 200px;
+    
+}
+
+/*Projects & Skills Main Section*/
+
+#projects {
+    width: 1400px;
+    height: 400px;
+}
+
+/*Project Section*/
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+}
+
+.project img {
+    display: block;
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+.project span {
+    display: block;
+    padding:5px;
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    align-items: center;
+}
+
+/*Skills Section*/
+
+.skills {
+    border: solid 3px black;
+    box-sizing: border-box;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;  
+    padding-top: 40px;
+}
+
+h2 {
+    margin: 40px 80px;
+   
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+  }
+
+.skill-card {
+    display: flex;
+   
+    
+}
+
+.skill-card img {
+    height: 75px;
+    width: 75px;
+}
+
+/*Contacts Section*/
+
+#contact {
+    height: 200px;
+}
+
+/*Footer Section*/
+
+footer {
+    text-align:left;
+    padding-left: 20px;
+}
